@@ -165,85 +165,6 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-2" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/05/2/">2</a>
-    </h1>
-  
-
-        
-        <a href="/2020/04/05/2/" class="archive-article-date">
-  	<time datetime="2020-04-05T10:58:28.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-04-05</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <hr>
-<p>title: 网站搭建之路<br>date: 2020-04-05 16:54:28<br>tags:</p>
-<hr>
-<p>＃一、搭建前的准备　　　</p>
-<p>　　网络上有很多关于ＧｉｔＨｕｂ　＋　ｈｅｘｏ　来搭建个人网站的教程，但没有一个完整无误的将整个搭建过程说清楚了，有很多地方容易产生歧义，从而导致操作错误，为此我将整个搭建过程做一完整的说明，并将存在歧义的地方着重标出，以免大家入坑。　　　</p>
-<p>１.注册ｇｉｔｈｕｂ　　　</p>
-<p>　　ｇｉｔｈｕｂ是一个分布式代码托管工具，是各位程序员必备工具。ＧｉｔＨｕｂ官网地址： <a href="https://github.com，对于如何注册使用ＧｉｔＨｕｂ，我这里不做过多的说明，网上有大把资料供参考，现给大家推荐一个链接供参考使用：https://blog.csdn.net/p10010/article/details/51336332。但需要注意我们搭建网站时，需要将我们的远程仓库命名为：用户名．ｇｉｔｈｕｂ．ｉｏ。所以我们整个远程仓库的访问地址为：ｈｔｔｐｓ：／／用户名．ｇｉｔｈｕｂ．ｉｏ，后面我们网站搭建好后，就可以通过ｈｔｔｐｓ：／／用户名．ｇｉｔｈｕｂ．ｉｏ来进行访问，此外也可以购买域名，将ｈｔｔｐｓ：／／用户名．ｇｉｔｈｕｂ．ｉｏ与域名进行绑定，从而使网站名显得高端大气上档次。">https://github.com，对于如何注册使用ＧｉｔＨｕｂ，我这里不做过多的说明，网上有大把资料供参考，现给大家推荐一个链接供参考使用：https://blog.csdn.net/p10010/article/details/51336332。但需要注意我们搭建网站时，需要将我们的远程仓库命名为：用户名．ｇｉｔｈｕｂ．ｉｏ。所以我们整个远程仓库的访问地址为：ｈｔｔｐｓ：／／用户名．ｇｉｔｈｕｂ．ｉｏ，后面我们网站搭建好后，就可以通过ｈｔｔｐｓ：／／用户名．ｇｉｔｈｕｂ．ｉｏ来进行访问，此外也可以购买域名，将ｈｔｔｐｓ：／／用户名．ｇｉｔｈｕｂ．ｉｏ与域名进行绑定，从而使网站名显得高端大气上档次。</a>　　　</p>
-<p>２．下载ｇｉｔ工具　　</p>
-<p>　　ｇｉｔ是一个软件工具，我们要从远处仓库上来下载里面的文件就是通过ｇｉｔ来实现的，ｇｉｔ支持界面操作，也支持命令行操作，但一般使用命令行操作更为简单方便，它的命令跟Ｌｉｎｕｘ命令差不多，因此会Ｌｉｎｕｘ的话，ｇｉｔ工具很容易上手。具体下载地址可参考：<a href="https://github.com/waylau/git-for-win。" target="_blank" rel="noopener">https://github.com/waylau/git-for-win。</a>　</p>
-<p>３．下载Ｎｏｄｅ．ｊｓ软件　　</p>
-<p>　　下载官网地址：安装 Node.js <a href="https://nodejs.org/en/。完成以上的上述的３步，准备工作就完成了，下面就可以进行正式的搭建过程。" target="_blank" rel="noopener">https://nodejs.org/en/。完成以上的上述的３步，准备工作就完成了，下面就可以进行正式的搭建过程。</a>　　</p>
-<p>＃二、开始搭建　　　</p>
-<p>　　对于搭建过程，我不打算做详细的说明，因为网上可参考资料实在太多，我主要是以我参考的文档来做一些补充，和说明一些注意事项。参考文档：<a href="https://zhangslob.github.io/2017/02/28/%E6%95%99%E4%BD%A0%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%8CHexo-Github/" target="_blank" rel="noopener">https://zhangslob.github.io/2017/02/28/%E6%95%99%E4%BD%A0%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%8CHexo-Github/</a>　　</p>
-<p>　　１.我们需要打开之前安装好的ｎｏｄｅ，ｊｓ软件，在其命令行中分别输入ｎｏｄｅ　－ｖ，ｎｐｍ　－ｖ，若出现两个版本号，则说明ｎｏｄｅ．ｊｓ软件安装成功。　　　</p>
-<p>　　２．基于上述参考文档，自$ npm install -g hexo-cli这一条命令开始，我们都是在ｇｉｔ这个工具中输入的命令，我看了很多博客，在这一点上都表达的含糊不清，这就导致很多新手不知道在哪个软件中输入命令，一般都会误以为是在ｎｏｄｅ．ｊｓ输入，实则不然。　　　</p>
-<p>　　３．我们配置好之后，应该先ｈｅｘｏ　ｇ启动本地服务器，然后再ｈｅｘｏ　ｓ，在浏览器输入 <a href="http://localhost:4000/就可以看见网页和模板了，再ｈｅｘｏ" target="_blank" rel="noopener">http://localhost:4000/就可以看见网页和模板了，再ｈｅｘｏ</a>　ｄ发布我们的网站，然后就可通过ｈｔｔｐｓ：／／用户名．ｇｉｔｈｕｂ．ｉｏ来访问我们的网站了。　　</p>
-<p>　　４．以上完成后，还仅仅是个开始，只是有了一个网站的初步雏形，后续还有大量的完善工作。具体优化可自行百度搜索。</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/04/05/2/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
     <article id="post-网站搭建之路" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -264,21 +185,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>＃一、搭建前的准备　　　</p>
-<p>　　网络上有很多关于ＧｉｔＨｕｂ　＋　ｈｅｘｏ　来搭建个人网站的教程，但没有一个完整无误的将整个搭建过程说清楚了，有很多地方容易产生歧义，从而导致操作错误，为此我将整个搭建过程做一完整的说明，并将存在歧义的地方着重标出，以免大家入坑。　　　</p>
-<p>１.注册ｇｉｔｈｕｂ　　　</p>
-<p>　　ｇｉｔｈｕｂ是一个分布式代码托管工具，是各位程序员必备工具。ＧｉｔＨｕｂ官网地址： <a href="https://github.com，对于如何注册使用ＧｉｔＨｕｂ，我这里不做过多的说明，网上有大把资料供参考，现给大家推荐一个链接供参考使用：https://blog.csdn.net/p10010/article/details/51336332。但需要注意我们搭建网站时，需要将我们的远程仓库命名为：用户名．ｇｉｔｈｕｂ．ｉｏ。所以我们整个远程仓库的访问地址为：ｈｔｔｐｓ：／／用户名．ｇｉｔｈｕｂ．ｉｏ，后面我们网站搭建好后，就可以通过ｈｔｔｐｓ：／／用户名．ｇｉｔｈｕｂ．ｉｏ来进行访问，此外也可以购买域名，将ｈｔｔｐｓ：／／用户名．ｇｉｔｈｕｂ．ｉｏ与域名进行绑定，从而使网站名显得高端大气上档次。">https://github.com，对于如何注册使用ＧｉｔＨｕｂ，我这里不做过多的说明，网上有大把资料供参考，现给大家推荐一个链接供参考使用：https://blog.csdn.net/p10010/article/details/51336332。但需要注意我们搭建网站时，需要将我们的远程仓库命名为：用户名．ｇｉｔｈｕｂ．ｉｏ。所以我们整个远程仓库的访问地址为：ｈｔｔｐｓ：／／用户名．ｇｉｔｈｕｂ．ｉｏ，后面我们网站搭建好后，就可以通过ｈｔｔｐｓ：／／用户名．ｇｉｔｈｕｂ．ｉｏ来进行访问，此外也可以购买域名，将ｈｔｔｐｓ：／／用户名．ｇｉｔｈｕｂ．ｉｏ与域名进行绑定，从而使网站名显得高端大气上档次。</a>　　　</p>
-<p>２．下载ｇｉｔ工具　　</p>
-<p>　　ｇｉｔ是一个软件工具，我们要从远处仓库上来下载里面的文件就是通过ｇｉｔ来实现的，ｇｉｔ支持界面操作，也支持命令行操作，但一般使用命令行操作更为简单方便，它的命令跟Ｌｉｎｕｘ命令差不多，因此会Ｌｉｎｕｘ的话，ｇｉｔ工具很容易上手。具体下载地址可参考：<a href="https://github.com/waylau/git-for-win。" target="_blank" rel="noopener">https://github.com/waylau/git-for-win。</a>　</p>
-<p>３．下载Ｎｏｄｅ．ｊｓ软件　　</p>
-<p>　　下载官网地址：安装 Node.js <a href="https://nodejs.org/en/。完成以上的上述的３步，准备工作就完成了，下面就可以进行正式的搭建过程。" target="_blank" rel="noopener">https://nodejs.org/en/。完成以上的上述的３步，准备工作就完成了，下面就可以进行正式的搭建过程。</a>　　</p>
-<p>＃二、开始搭建　　　</p>
-<p>　　对于搭建过程，我不打算做详细的说明，因为网上可参考资料实在太多，我主要是以我参考的文档来做一些补充，和说明一些注意事项。参考文档：<a href="https://zhangslob.github.io/2017/02/28/%E6%95%99%E4%BD%A0%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%8CHexo-Github/" target="_blank" rel="noopener">https://zhangslob.github.io/2017/02/28/%E6%95%99%E4%BD%A0%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%8CHexo-Github/</a>　　</p>
-<p>　　１.我们需要打开之前安装好的ｎｏｄｅ，ｊｓ软件，在其命令行中分别输入ｎｏｄｅ　－ｖ，ｎｐｍ　－ｖ，若出现两个版本号，则说明ｎｏｄｅ．ｊｓ软件安装成功。　　　</p>
-<p>　　２．基于上述参考文档，自$ npm install -g hexo-cli这一条命令开始，我们都是在ｇｉｔ这个工具中输入的命令，我看了很多博客，在这一点上都表达的含糊不清，这就导致很多新手不知道在哪个软件中输入命令，一般都会误以为是在ｎｏｄｅ．ｊｓ输入，实则不然。　　　</p>
-<p>　　３．我们配置好之后，应该先ｈｅｘｏ　ｇ启动本地服务器，然后再ｈｅｘｏ　ｓ，在浏览器输入 <a href="http://localhost:4000/就可以看见网页和模板了，再ｈｅｘｏ" target="_blank" rel="noopener">http://localhost:4000/就可以看见网页和模板了，再ｈｅｘｏ</a>　ｄ发布我们的网站，然后就可通过ｈｔｔｐｓ：／／用户名．ｇｉｔｈｕｂ．ｉｏ来访问我们的网站了。　　</p>
-<p>　　４．以上完成后，还仅仅是个开始，只是有了一个网站的初步雏形，后续还有大量的完善工作。具体优化可自行百度搜索。</p>
-
+        <h1 id="一、搭建前的准备"><a href="#一、搭建前的准备" class="headerlink" title="一、搭建前的准备"></a>一、搭建前的准备</h1><p>　　网络上有很多关于ＧｉｔＨｕｂ　＋　ｈｅｘｏ　来搭建个人网站的教程，但没有一个完整无误的将整个搭建过程说清楚了，有很多地方容易产生歧义，从而导致操作错误，为此我将整个搭建过程做一完整的说明，并将存在歧义的地方着重标出，以免大家入坑。　　</p>
+        
+          <a class="article-more-a" href="/2020/04/05/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA%E4%B9%8B%E8%B7%AF/#more">more >></a>
+        
       
 
       
